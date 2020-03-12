@@ -13,4 +13,4 @@ git clone --depth 1 https://github.com/yourname/xxh-plugin-zsh-yourtitle
 # build it if needed
 ./xxh-plugin-zsh-yourtitle/build.xsh
 ```
-6. Try connect in update mode: `xxh [user@]host[:port] +if +s xxh-shell-zsh`
+6. Try connect in update mode: `xxh [user@]host[:port] +s zsh +if`
