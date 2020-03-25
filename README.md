@@ -8,11 +8,7 @@
 4. Push your commits and rename your repo to `xxh-plugin-zsh-yourtitle`
 5. Install the plugin to your xxh home:
 ```
-cd ~/.xxh/xxh/plugins
-git clone --depth 1 https://github.com/yourname/xxh-plugin-zsh-yourtitle
-
-# build it if needed
-./xxh-plugin-zsh-yourtitle/build.sh
+xxh +I xxh-plugin-zsh-yourtitle+git+https://github.com/yourname/xxh-plugin-zsh-yourtitle
 ```
 6. Try connect in update mode: `xxh [user@]host[:port] +s zsh +if`
 
